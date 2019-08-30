@@ -278,6 +278,7 @@ def main():
     args = parser.parse_args()
 
     cfg = Config(args.domain)
+    cfg.init_handler(args.network)
     if args.cfg:
         for pair in args.cfg:
             k, v = tuple(pair.split('='))
@@ -289,7 +290,6 @@ def main():
             else:
                 v = dtype(v)
             setattr(cfg, k, v)
-    cfg.init_handler(args.network)
 
     logging.debug(str(cfg))
     if cfg.cuda:

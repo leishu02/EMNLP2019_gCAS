@@ -1,10 +1,13 @@
 #Modeling Multi-Action Policy for Task-Oriented Dialogues
+
 code for our EMNLP 2019 paper "[Modeling Multi-Action Policy for Task-Oriented Dialogues](http://arxiv.org/abs/)".
 
 ## Problem to Solve
 In most existing approaches, the agent predicts only one DM policy action per turn.
 This significantly limits the expressive power of the conversational agent and introduces unwanted turns of interactions that may challenge users' patience.
-We propose a novel policy model based on a recurrent cell called gated Continue-Act-Slots (gCAS). It outputs multiple actions per turn (called multi-act) by generating a sequence of tuples and expanding agents' expressive power
+
+We propose a novel policy model based on a recurrent cell called gated Continue-Act-Slots (gCAS). It outputs multiple actions per turn (called multi-act) by generating a sequence of tuples and expanding agents' expressive power.
+
 ![CAS decoder](resources/CASdecoder.png)
 
 The gated CAS cell contains three sequentially connected units for outputting continue, act, and slots respectively.

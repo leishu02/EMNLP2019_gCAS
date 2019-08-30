@@ -1,0 +1,4 @@
+python=2.7.15
+pytorch=1.2.0
+numpy
+cPickle

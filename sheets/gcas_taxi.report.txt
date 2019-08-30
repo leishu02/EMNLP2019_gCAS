@@ -1,0 +1,24 @@
+START_REPORT_SECTION
+pair_jaccard	0.460363522324
+pair_recall	0.56243410152
+act_jaccard	0.687569755925
+pair_fscore	0.549771649727
+inform_critical_p	0.674832214763
+act_fscore	0.773733279055
+entity_fscore	0.639950673511
+inform_critical_r	0.842833193626
+inform_noncritical_f	0.517663038611
+inform_all_r	0.797599199731
+inform_all_p	0.623078926802
+inform_critical_f	0.749534098674
+entity_recall	0.5075794621
+entity_precision	0.865721434522
+inform_all_f	0.699619766937
+inform_noncritical_p	0.443538998831
+inform_noncritical_r	0.621533442078
+success_precision	0.784646739125
+act_recall	0.753878596173
+success_fscore	0.811665490432
+act_precision	0.794662074902
+success_recall	0.840611353706
+pair_precision	0.537666810159

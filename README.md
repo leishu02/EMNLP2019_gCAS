@@ -1,6 +1,6 @@
 # Modeling Multi-Action Policy for Task-Oriented Dialogues
 
-code for our EMNLP 2019 paper "[Modeling Multi-Action Policy for Task-Oriented Dialogues](http://arxiv.org/abs/)".
+Code for our EMNLP 2019 paper "[Modeling Multi-Action Policy for Task-Oriented Dialogues](http://arxiv.org/abs/)".
 
 ## Problem to Solve
 In most existing approaches, the agent predicts only one DM policy action per turn.

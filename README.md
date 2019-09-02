@@ -41,4 +41,10 @@ For all domains, `bash test_all.sh`
 ## Citation
 If you find this work useful, please cite as following.
 ```
+@article{shu2019multiaction,
+  title={Modeling Multi-Action Policy for Task-Oriented Dialogues},
+  author={Shu, Lei and Xu, Hu and Liu, Bing and Molino, Piero},
+  journal={arXiv preprint arXiv:1908.11546},
+  year={2019}
+}
 ```
